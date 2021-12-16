@@ -1,0 +1,200 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #040415;
+    color: #ffffff;
+}
+.dashboard{
+    margin-left: 3%;
+}
+.sidenav{
+    width: 3%;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30%;
+}
+.nav-icon{
+    background: #292e39;
+    height: 3vh;
+    width: 1.5vw;
+    padding: 1em;
+    border-radius: 50%;
+    margin-bottom: 10%;
+}
+.nav-more{
+    position: absolute;
+    top: 90%;
+}
+.top-right{
+    display: flex;
+    justify-content: flex-end;
+    margin: -6% 5% 0 0;
+}
+.search{
+    display: flex;
+    margin-left: 2%;
+}
+.search-icon{
+    height: 3vh;
+    position: absolute;
+    padding: 0.7em;
+    top: 4%;
+}
+input{
+    background: none;
+    border: none;
+    border-bottom: 3px solid #008e8a;
+    height: 8vh;
+    margin-top: 5%;
+}
+input::placeholder{
+    padding-left: 3em;
+}
+.admin{
+    display: flex;
+    margin-left: 2%;
+}
+.admin-image{
+    height: 10vh;
+    padding-left: 0.7em;
+}
+h2{
+    margin-left: 7%;
+}
+.main{
+    margin-left: 7%;
+    display: flex;
+}
+.margin-left{
+    width: 70%;
+}
+.main-left-top{
+    display: flex;
+}
+.greeting{
+    background: #008e8a;
+    padding: 1em;
+    border-radius: 5px;
+    height: 32vh;
+    width: 30vw;
+}
+.create-event{
+    height: 4vh;
+    background: #ffffff;
+    color: #008e8a;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10%;
+}
+.images{
+    display: flex;
+    margin:-57% 0 0 55%;
+}
+.marni{
+    height: 40vh;
+}
+.ball{
+    height: 10vh;
+    margin: 30% 0 0 -58%;
+}
+.reminder{
+    margin-left: 5%;
+    background: #141518;
+    padding: 1em;
+    border-radius: 8px;
+    height: 32vh;
+    width: 12.5vw;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.toggle{
+    height: 3vh;
+}
+.reminder-info{
+    margin-top: -10%;
+}
+.add-new{
+    background: #1f1f25;
+    color: #008e8a;
+    border: 1px solid #008e8a;
+    border-radius: 5px;
+    height: 4vh;
+}
+.main-left-bottom{
+    display: flex;
+    margin-top: 3%;
+}
+.contacts{
+    width: 20vw;
+    background: #141518;
+    padding: 1em;
+    border-radius: 10px;
+    height: 45vh;
+}
+.contacts-top{
+    display: flex;
+    justify-content: space-between;
+}
+.view{
+    color: #008e8a;
+}
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    height: 7vh;
+}
+.contact-image{
+    height: 7vh;
+}
+.name{
+    text-align: left;
+    margin-top: -5%;
+}
+sub{
+   position: relative;
+   top: -15%;
+}
+.more{
+    height: 0.5vh;
+}
+.result-image{
+    height: 50vh;
+    width: 27vw;
+    margin-left: 5%;
+}
+.main-right{
+    margin-left: 5%;
+}
+.schedule{
+    margin-top: 5%;
+}
+.schedule-top{
+    display: flex;
+    justify-content: space-between;
+}
+.schedule-box{
+    display: flex;
+    justify-content: space-between;
+    background: #141518;
+    padding: 1em;
+    height: 15.5vh;
+    border-radius: 15px;
+    margin-bottom: 5%;
+}
+.team{
+    background: #39bd45;
+    padding: 0.3em;
+    border-radius: 5px;
+}
+.medical{
+    background: #505dd6;
+    padding: 0.3em;
+    border-radius: 5px;
+}
